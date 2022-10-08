@@ -1,33 +1,60 @@
 .page{
-
+    background-color: #DFFBE2;
+    font-size: 1em;
+    font-family: "Times New Roman";
+    padding: 12px;
+    text-align: left;
 }
 
 .header-title{
-
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Book Antiqua";
 }
 
 .main-image{
-
+    width: 500px;
+    height: 300px;
+    filter: drop-shadow(10px 10px 10px black);
+    padding: 8px;
 }
 
 .main-info{
-
 }
 
 .main-info__title{
-
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua";
 }
 
 .main-info__list{
-
+    line-height: 1.5em;
 }
 
 .main-info__list__header{
-
+    font-style: italic;
+    font-weight: bold;
 }
 
 .main-ascii{
+    color: #487A4E;
+}
 
+.main-background{
+
+}
+
+.main-background__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua";
+}
+
+.main-background__crucial{
+    font-style: italic;
 }
 
 .main-skills{
@@ -35,15 +62,17 @@
 }
 
 .main-skills__list{
-
+    line-height: 1.5em;
 }
 
 .main-algorithm{
-
+    font-size: 1.1em;
 }
 
 .main-algorithm__title{
-
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: "Book Antiqua";
 }
 
 .main-quote{
@@ -51,7 +80,19 @@
 }
 
 .main-quote__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua";
+}
 
+.main-quote__quote{
+    line-height: 1.25em;
+}
+
+.main-quote__author{
+    font-style: italic;
+    line-height: 1.5em;
 }
 
 .main-joke{
@@ -59,7 +100,14 @@
 }
 
 .main-joke__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua";
+}
 
+.main-joke__crucial{
+    font-style: italic;
 }
 
 .footer-resources{
@@ -67,11 +115,14 @@
 }
 
 .footer-resources__title{
-
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1em;
+    font-family: "Book Antiqua";
 }
 
 .footer-resources__list{
-
+    line-height: 1.25em;
 }
 
 .footer-contact-info{
@@ -79,11 +130,14 @@
 }
 
 .footer-contact-info__title{
-
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1em;
+    font-family: "Book Antiqua";
 }
 
 .footer-contact-info__list{
-
+    line-height: 1.5em;
 }
 
 
