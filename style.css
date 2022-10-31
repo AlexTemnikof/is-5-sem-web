@@ -1,7 +1,9 @@
 .page{
-    background-color: #DFFBE2;
+    background: url("images/shrek-background.jpg") fixed;
+    background-size: 100% auto;
     font-size: 1rem;
     font-family: Manrope, serif;
+    margin-left: 1%;
     display: flex;
     flex-direction: column;
 }
