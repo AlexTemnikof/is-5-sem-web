@@ -1,32 +1,31 @@
 .page{
     background-color: #DFFBE2;
-    font-size: 1em;
-    font-family: "Times New Roman";
-    padding: 12px;
-    text-align: left;
+    font-size: 1rem;
+    font-family: Manrope, serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-title{
-    font-size: 1.5em;
+    font-size: 1.6rem;
+    font-family: Playfair+Display, serif;
     font-weight: bold;
-    font-family: "Book Antiqua";
 }
 
 .main-image{
     width: 500px;
-    height: 300px;
+    height: auto;
     filter: drop-shadow(10px 10px 10px black);
-    padding: 8px;
 }
 
 .main-info{
 }
 
 .main-info__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .main-info__list{
@@ -47,15 +46,67 @@
 }
 
 .main-background__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
-    line-height: 1.5em;
-    font-family: "Book Antiqua";
+    line-height: 1.5rem;
+    font-family: Playfair+Display, serif;
 }
 
 .main-background__crucial{
     font-style: italic;
 }
+
+.main-table{
+    display: grid;
+    grid-template-columns: minmax(100px, 400px) minmax(150px, 400px) minmax(150px, 400px) minmax(100px, 400px);
+    grid-template-rows: 50px 50px 50px 50px;
+    max-width: 1200px;
+    min-width: 400px;
+    margin-top: 5%;
+}
+
+thead,
+tbody,
+tr {
+    display: contents;
+}
+
+th,
+td {
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: darkgreen;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #808080;
+}
+
+th:last-child {
+    border: 0;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+    background: green;
+}
+td:nth-child(4n+1){
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) td {
+    background: yellowgreen;
+}
+
 
 .main-skills{
 
@@ -66,13 +117,13 @@
 }
 
 .main-algorithm{
-    font-size: 1.1em;
+    font-size: 1rem;
 }
 
 .main-algorithm__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .main-quote{
@@ -80,10 +131,10 @@
 }
 
 .main-quote__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .main-quote__quote{
@@ -100,10 +151,10 @@
 }
 
 .main-joke__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .main-joke__crucial{
@@ -115,10 +166,10 @@
 }
 
 .footer-resources__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1em;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .footer-resources__list{
@@ -130,10 +181,10 @@
 }
 
 .footer-contact-info__title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1em;
-    font-family: "Book Antiqua";
+    font-family: Playfair+Display, serif;
 }
 
 .footer-contact-info__list{
