@@ -1,9 +1,25 @@
 .page{
     background: url("images/shrek-background.jpg") fixed;
     background-size: 100% auto;
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-family: Manrope, serif;
+    color: black;
     margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +37,9 @@
 }
 
 .main-info{
+    background: rgb(123,132,121, 0.6);
+    width: 20%;
+    padding: 1%;
 }
 
 .main-info__title{
@@ -31,7 +50,7 @@
 }
 
 .main-info__list{
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .main-info__list__header{
@@ -41,10 +60,15 @@
 
 .main-ascii{
     color: #487A4E;
+    background: rgb(123,132,121, 0.6);
+    width: 25%;
+    padding: 1%;
 }
 
 .main-background{
-
+    background: rgb(123,132,121, 0.6);
+    width: 35%;
+    padding: 1%;
 }
 
 .main-background__title{
@@ -111,7 +135,9 @@ tr:nth-child(even) td {
 
 
 .main-skills{
-
+    background: rgb(123,132,121, 0.6);
+    width: 35%;
+    padding: 1%;
 }
 
 .main-skills__list{
@@ -120,6 +146,9 @@ tr:nth-child(even) td {
 
 .main-algorithm{
     font-size: 1rem;
+    background: rgb(123,132,121, 0.6);
+    width: 40%;
+    padding: 1%;
 }
 
 .main-algorithm__title{
@@ -129,7 +158,9 @@ tr:nth-child(even) td {
 }
 
 .main-quote{
-
+    background: rgb(123,132,121, 0.6);
+    width: 37%;
+    padding: 1%;
 }
 
 .main-quote__title{
@@ -149,7 +180,9 @@ tr:nth-child(even) td {
 }
 
 .main-joke{
-
+    background: rgb(123,132,121, 0.6);
+    width: 30%;
+    padding: 1%;
 }
 
 .main-joke__title{
@@ -164,7 +197,9 @@ tr:nth-child(even) td {
 }
 
 .footer-resources{
-
+    background: rgb(123,132,121, 0.6);
+    width: 15%;
+    padding: 1%;
 }
 
 .footer-resources__title{
@@ -179,7 +214,9 @@ tr:nth-child(even) td {
 }
 
 .footer-contact-info{
-
+    background: rgb(123,132,121, 0.6);
+    width: 30%;
+    padding: 1%;
 }
 
 .footer-contact-info__title{
