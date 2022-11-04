@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title class="head__title">Шречье резюме</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/resume.css">
     <!-- You need a yandex api key to use this feature -->
     <script src="https://api-maps.yandex.ru/2.1/?apikey=YourApiKeyc0e529d5ee20c57ad8ee04c296&lang=ru_RU&load=Geolink"
             type="text/javascript"></script>
@@ -13,12 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script defer src="scripts/buttons.js"></script>
     <script defer src="scripts/pop-up-starting-window.js"></script>
+    <script defer src="scripts/pages.js"></script>
 </head>
-<body class="page">
+<body class="page body_visible">
     <header class="header">
         <div class="menu">
-            <button class=""></button>
-            <button class=""></button>
+            <button class="menu-button__home" onclick="home()">Home</button>
+            <button class="menu-button__friends" onclick="friends()">My friends</button>
+            <button class="menu-button__cinema" onclick="cinema()">Me in Hollywood</button>
+            <button class="menu-button__memes" onclick="memes()">Memes about me</button>
         </div>
         <div class="header-title">Резюме разработчика</div>
     </header>

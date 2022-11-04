@@ -1,5 +1,8 @@
+//todo: make cookies
+
 function ShrekLove_yes(){
-    document.getElementsByClassName('pop-up-window')[0].style.display = "none"
+    document.getElementsByClassName('pop-up-window')[0].style.display = "none";
+    document.getElementsByClassName('menu')[0].style.visibility = "visible";
 }
 
 function ShrekLove_not(){

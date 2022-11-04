@@ -1,5 +1,5 @@
 .page{
-    background: url("images/shrek-background.jpg") fixed;
+    background: url("../images/shrek-background.jpg") fixed;
     background-size: cover;
     font-size: 1.05rem;
     font-family: Manrope, serif;
@@ -7,6 +7,18 @@
     margin-left: 1%;
     display: flex;
     flex-direction: column;
+}
+
+.friends{
+    background: black;
+}
+
+.body_hide {
+    opacity: 0;
+    transition: .9s opacity ease-in-out;
+}
+.body_visible {
+    opacity: 1;
 }
 
 .pop-up-window{
@@ -21,26 +33,26 @@
     width: 100%;
     height: 100%;
     padding-top: 40vh;
-    background: rgb(144, 238, 144, 0.6);
+    background: rgb(123,132,121, 0.9);
 }
 
 .pop-up-window__question{
     margin-right: 25%;
     margin-left: 25%;
-    background: rgb(144, 238, 144, 0.65);
+    background: rgb(87,103,102, 0.5);
     height: 12vh;
     padding: 1%;
 }
 .pop-up-window__yes{
     margin-bottom: 50vh;
-    background-color: rgb(144, 238, 144, 0.65);
+    background: rgb(87,103,102, 0.5);
     padding: 1%;
     height: 16vh;
 }
 
 .pop-up-window__no{
     margin-bottom: 50vh;
-    background: rgb(144, 238, 144, 0.65);
+    background: rgb(87,103,102, 0.5);
     padding: 1%;
     height: 16vh;
 }
@@ -70,12 +82,42 @@ footer{
     margin-bottom: 2vh;
 }
 
+.menu{
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(123,132,121, 0.9);
+    margin-left: -1%;
+    width: 101%;
+    height: 4vh;
+    padding: 1%;
+}
+
+.menu-button__home{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__friends{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__cinema{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__memes{
+    background: rgb(87,103,102, 0.65);
+}
+
 .header-title{
     font-size: 1.6rem;
     font-family: Playfair+Display, serif;
     font-weight: bold;
     align-self: center;
-    margin-top: 2%;
+    margin-top: 10vh;
 }
 
 .main-image{

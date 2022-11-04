@@ -13,7 +13,7 @@ function addButtonHandlers(btn){
 
         // make white buton on mouseout
         btn[i].addEventListener('mouseout', () => {
-            btn[i].style.backgroundColor = "rgb(144, 238, 144, 0.65)";
+            btn[i].style.backgroundColor = "rgb(87,103,102, 0.5)";
             btn[i].style.color = 'black';
         });
     }
