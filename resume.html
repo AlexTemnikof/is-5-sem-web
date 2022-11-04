@@ -5,17 +5,27 @@
     <title class="head__title">Шречье резюме</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <!-- You need an yandex api key to use this feature -->
+    <!-- You need a yandex api key to use this feature -->
     <script src="https://api-maps.yandex.ru/2.1/?apikey=YourApiKeyc0e529d5ee20c57ad8ee04c296&lang=ru_RU&load=Geolink"
             type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/pop-up-starting-window.js"></script>
 </head>
 <body class="page">
     <header class="header">
+        <div class="menu">
+            <button class=""></button>
+            <button class=""></button>
+        </div>
         <div class="header-title">Резюме разработчика</div>
     </header>
+    <div class="pop-up-window">
+        <span class="pop-up-window__question">Вы любите шрека?</span>
+        <button class="pop-up-window__yes" onclick=ShrekLove_yes()>Да</button>
+        <button class="pop-up-window__no" onclick=ShrekLove_not()>Нет</button>
+    </div>
     <main>
         <img class="main-image" src="/images/shrek.jpg">
         <section class="main-info">
