@@ -1,10 +1,10 @@
-const testBtn = document.querySelectorAll('button')
+const Btn = document.querySelectorAll('button')
 
-addButtonHandlers(testBtn);
+addButtonHandlers(Btn);
 
 function addButtonHandlers(btn){
 
-    for(let i = 0; i < testBtn.length; i++) {
+    for(let i = 0; i < btn.length; i++) {
         // make gray button on mouseover
         btn[i].addEventListener('mouseover', () => {
             btn[i].style.backgroundColor = 'gray';

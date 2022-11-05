@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title class="head__title">Шречье резюме</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/friends.css">
     <!-- You need a yandex api key to use this feature -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script defer src="scripts/buttons.js"></script>
     <script defer src="scripts/pages.js"></script>
+    <script defer src="scripts/active_button.js" ></script>
 </head>
 <body class="friends body_visible">
     <header class="header">
@@ -21,7 +22,7 @@
             <button class="menu-button__memes" onclick="memes()">Memes about me</button>
         </div>
 
-        <div class="friends-header">Мои друзья</div>
+        <span class="friends-header">Мои друзья</span>
     </header>
 
     <main class = "main">
