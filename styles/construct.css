@@ -49,37 +49,60 @@ header{
 }
 
 .constructor-header{
-
+    font-family: Playfair+Display, serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-self: center;
+    margin-top: 10vh;
 }
 
 .constructor__form{
-    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-self: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.constructor__input__todo-label{
+    margin-top: 1vh;
+    background: rgb(123,132,121, 0.6);
+    width: 10vw;
+    font-size: calc((100vw - 480px)/(1600 - 480) * (24 - 16) + 13px);
+    padding: 1%;
 }
 
 #constructor__input__todo{
 
 }
 
-#constructor__input__deadline{
 
+#constructor__input__deadline{
 }
 
 .submit__button{
-
+    margin-top: 2vh;
 }
 
 .clear__button{
-
+    position: absolute;
+    margin-top: 38vh;
+    margin-left: 70vw;
+    background: rgb(87,103,102, 0.5);
 }
 
 .constructor__todo{
-
+    margin-top: 5vh;
+    align-self: center;
 }
 
 .todo-list__item{
-
+    background: rgb(123,132,121, 0.9);
+    width: 20vw;
+    padding: 2%;
 }
 
 .delete__button{
-
+    background: rgb(87,103,102, 0.5);
 }
