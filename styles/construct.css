@@ -66,7 +66,8 @@ header{
 }
 
 .constructor__input__todo-label{
-    margin-top: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     background: rgb(123,132,121, 0.6);
     width: 10vw;
     font-size: calc((100vw - 480px)/(1600 - 480) * (24 - 16) + 13px);
@@ -74,7 +75,6 @@ header{
 }
 
 #constructor__input__todo{
-
 }
 
 
@@ -83,11 +83,12 @@ header{
 
 .submit__button{
     margin-top: 2vh;
+    background: rgb(123,132,121, 0.5);
 }
 
 .clear__button{
     position: absolute;
-    margin-top: 38vh;
+    margin-top: 42vh;
     margin-left: 70vw;
     background: rgb(87,103,102, 0.5);
 }
