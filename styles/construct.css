@@ -1,0 +1,85 @@
+.page{
+    background: url("../images/shrek-background.jpg") fixed;
+    background-size: cover;
+    font-size: 1.05rem;
+    font-family: Manrope, serif;
+    color: black;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(123,132,121, 0.9);
+    margin-left: -1%;
+    width: 101%;
+    height: 4vh;
+    padding: 1%;
+}
+
+.menu-button__home{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__friends{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__cinema{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__memes{
+    background: rgb(87,103,102, 0.65);
+}
+
+.menu-button__todo{
+    background: rgb(87, 103, 102, 0.65);
+}
+
+.constructor-header{
+
+}
+
+.constructor__form{
+    margin-top: 50vh;
+}
+
+#constructor__input__todo{
+
+}
+
+#constructor__input__deadline{
+
+}
+
+.submit__button{
+
+}
+
+.clear__button{
+
+}
+
+.constructor__todo{
+
+}
+
+.todo-list__item{
+
+}
+
+.delete__button{
+
+}

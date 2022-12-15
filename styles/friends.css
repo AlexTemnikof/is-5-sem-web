@@ -65,6 +65,10 @@
     background: rgb(87,103,102, 0.65);
 }
 
+.menu-button__todo{
+    background: rgb(87, 103, 102, 0.65);
+}
+
 .friends-header{
     font-size: 2rem;
     margin-top: 10vh;

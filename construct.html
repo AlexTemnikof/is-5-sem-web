@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title class="head__title">Шречье резюме</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/construct.css">
+    <!-- You need a yandex api key to use this feature -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/buttons.js"></script>
+    <script defer src="scripts/active_button.js"></script>
+    <script defer src="scripts/construct.js"></script>
+</head>
+<body class="page body_visible">
+
+    <header class="header">
+        <div class="menu">
+            <a href="resume.html" class="menu-button__home">Home</a>
+            <a href="friends.html" class="menu-button__friends">My friends</a>
+            <a href="cinema.html" class="menu-button__cinema">Me in Hollywood</a>
+            <a href="memes.html" class="menu-button__memes">Memes about me</a>
+            <a href="construct.html" class="menu-button__todo">TodoList</a>
+        </div>
+        <div class="constructor-header">Список дел: </div>
+    </header>
+
+    <form class="constructor__form">
+        <label for="constructor__input__todo" class="constructor__input__todo-label">Что сделать:</label>
+        <input id="constructor__input__todo" name="todo" type="text" size="30" minlength="3" placeholder="Закрыть вебы...">
+
+        <label for="constructor__input__deadline" class="constructor__input__todo-label">Дедлайн:</label>
+        <input id="constructor__input__deadline" name="deadline" type="text" size="30" minlength="3" placeholder="31 декабря">
+        <input type="submit" class="submit__button">
+    </form>
+    <button class="clear__button" onclick="clearStorage()">DeleteAll</button>
+    <div class="constructor__todo">
+
+    </div>
+
+    <template id="template">
+        <div class="todo-list__item">
+            <input type="checkbox" class="checkbox">
+            <span></span>
+            <button class="delete__button">Delete</button>
+        </div>
+    </template>
+</body>
+</html>

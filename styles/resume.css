@@ -112,6 +112,10 @@ footer{
     background: rgb(87,103,102, 0.65);
 }
 
+.menu-button__todo{
+    background: rgb(87, 103, 102, 0.65);
+}
+
 .header-title{
     font-size: 1.6rem;
     font-family: Playfair+Display, serif;
