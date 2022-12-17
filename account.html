@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script defer src="scripts/buttons.js"></script>
     <script defer src="scripts/active_button.js"></script>
-    <script defer src="scripts/construct.js"></script>
+    <script type="module" defer src="scripts/account.js"></script>
 </head>
-<body class="page body_visible">
+<body class="account-page">
 
     <header class="header">
         <div class="menu">
@@ -25,21 +25,40 @@
         </div>
     </header>
 
+    <div id="currentShow"></div>
+
     <template id="loader">
         <img class="loader__image">
         <div class="loader__text"></div>
     </template>
 
     <template id="template__authorize-form">
-        <div class="authorize-form__username"></div>
-        <div class="authorize-form__password"></div>
-        <div class="authorize-form__submit"></div>
+        <form class="authorize-form__form">
+            <label for="authorize-form__username-input" class="authorize-form__username">Username:</label>
+            <input id="authorize-form__username-input" name="authorize-username" type="text" size="30" minlength="3" placeholder="shrek228">
+            <label for="authorize-form__password-input" class="authorize-form__password">Password:</label>
+            <input id="authorize-form__password-input" name="authorize-password" type="text" size="30" minlength="5" placeholder="123456a">
+            <input type="submit" class="authorize-form__submit">
+        </form>
+        <button class="authorize-form__register-button"></button>
+    </template>
+
+    <template id="template__password-form">
+        <form class="password-form__form">
+            <label for="password-form__password">Введите пароль</label>
+            <input id="password-form__password" type="text" name="password" size="30" minlength="5" placeholder="shrekOneLove">
+            <label for="password-form__confirm-password" class>Подтвердите пароль</label>
+            <input id="password-form__confirm-password" type="text" name="confirm-password" minlength="5" placeholder="shrekOneLove">
+            <input type="submit" class="password-form__submit">
+        </form>
     </template>
 
     <template id="template__registration-form">
-        <div class="registration-form__username"></div>
-        <div class="registration-form__password"></div>
-        <div class="registration-form__password-confirm"></div>
+        <label for="registration-form__username" class="registration-form__username"></label>
+        <input id="registration-form__username" name="registration-username" type="text" size="30" minlength="3" placeholder="shrek228">
+        <label for="registration-form__password"></label>
+        <input id="registration-form__password" name="registration-password" type="text" size="30" minlength="5" placeholder="123456a">
+        <input type="submit" class="registration-form__password-confirm">
     </template>
 
     <template id="template__account">
@@ -56,6 +75,11 @@
                 <div class="company__bs"></div>
             </div>
         </div>
+    </template>
+
+    <template id="failure-template">
+        <div class="text"></div>
+        <img src="gifs/failureGif.gif">
     </template>
 </body>
 </html>
