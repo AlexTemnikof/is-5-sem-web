@@ -54,13 +54,13 @@ function display(data){
     accountPage.innerHTML = '';
     const userTemplate = document.querySelector("#template__account");
     const userItem = userTemplate.content.cloneNode(true);
-    userItem.querySelector(".account__username").textContent = data[0].username;
-    userItem.querySelector(".account__email").textContent = data[0].email;
-    userItem.querySelector(".company__name").textContent = data[0].company.name;
-    userItem.querySelector(".account__phone").textContent = data[0].phone;
-    userItem.querySelector(".account__website").textContent = data[0].website;
-    userItem.querySelector(".company__bs").textContent = data[0].company.bs;
-    userItem.querySelector(".company__catchphrase").textContent = data[0].company.catchPhrase;
+    userItem.querySelector(".account__username").textContent = "username: " + data[0].username;
+    userItem.querySelector(".account__email").textContent = "email: " + data[0].email;
+    userItem.querySelector(".company__name").textContent = "company name: " + data[0].company.name;
+    userItem.querySelector(".account__phone").textContent = "phone: " + data[0].phone;
+    userItem.querySelector(".account__website").textContent = "website: " + data[0].website;
+    userItem.querySelector(".company__bs").textContent = "company bs: " + data[0].company.bs;
+    userItem.querySelector(".company__catchphrase").textContent = "company catchphrase: " + data[0].company.catchPhrase;
     accountPage.append(userItem);
 }
 

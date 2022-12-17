@@ -1,4 +1,4 @@
-.page{
+.account-page{
     background: url("../images/shrek-background.jpg") fixed;
     background-size: cover;
     font-size: 1.05rem;
@@ -30,20 +30,70 @@ header{
 
 .menu-button__home{
     background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
 }
 
 .menu-button__friends{
     background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
 }
 
 .menu-button__cinema{
     background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
 }
 
 .menu-button__memes{
     background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
 }
 
 .menu-button__todo{
-    background: rgb(87, 103, 102, 0.65);
+    background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
+}
+
+.menu-button__account{
+    background: rgb(87,103,102, 0.65);
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 2.5vh;
+}
+
+#currentShow{
+    align-self: center;
+    margin-top: 10vh;
+}
+
+.authorize-form__username{
+    background: rgb(255,255,255, 0.3);
+    font-size: 1.3rem;
+}
+
+.authorize-form__password{
+    background: rgb(255,255,255, 0.3);
+    font-size: 1.3rem;
+}
+
+.account__header{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    margin-left: 10vw;
+}
+
+
+.account__body{
+    background: rgb(87,103,102, 0.65);
+    padding: 1%;
 }

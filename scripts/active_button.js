@@ -11,8 +11,8 @@ window.onload
     if (button != null) {
         button.style.borderLeft = '3px solid black';
         button.style.borderBottom = '3px solid black';
-        button.style.background = "rgb(245,229,230)";
-        button.style.color = 'grey';
+        button.style.background = "rgb(123,132,121, 0.1)";
+        button.style.color = 'black';
         button.disabled = true;
     }
 }
